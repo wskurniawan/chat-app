@@ -1,0 +1,34 @@
+{
+  "name": "chat-app",
+  "version": "0.0.1",
+  "description": "cuma chat app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wskurniawan/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "chat",
+    "app"
+  ],
+  "author": "Wisnu Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wskurniawan/chat-app/issues"
+  },
+  "homepage": "https://github.com/wskurniawan/chat-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.13.0"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.2.6",
+    "webpack": "^4.16.1"
+  }
+}

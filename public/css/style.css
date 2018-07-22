@@ -1,0 +1,11 @@
+.ws-mobile-container{
+   max-width: 640px;
+   padding-right: 12px;
+   padding-left: 12px;
+   width: 100%;
+}
+
+.ws-divider-m{
+   margin-top: 24px;
+   margin-bottom: 12px;
+}

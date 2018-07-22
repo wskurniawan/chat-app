@@ -4,7 +4,9 @@
   "description": "cuma chat app",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "build-dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,18 @@
     "firebase-admin": "^5.13.0"
   },
   "devDependencies": {
-    "vue-loader": "^15.2.6",
-    "webpack": "^4.16.1"
+    "@firebase/app": "^0.3.3",
+    "@firebase/auth": "^0.7.1",
+    "@firebase/messaging": "^0.3.5",
+    "@firebase/storage": "^0.2.3",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "uglifyify": "^5.0.1",
+    "vue": "^2.5.16",
+    "vueify": "^9.4.1",
+    "vuetify": "^1.1.7"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
   }
 }
